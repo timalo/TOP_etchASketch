@@ -7,7 +7,12 @@ function createDivs(amount) {
         div.classList.add("box");
         container.appendChild(div);
     }
-}
+    const boxes = document.querySelectorAll('.box').forEach(item => {
+        item.addEventListener('mouseenter', event => {
+            item.classList.add("painted");
+        })
+    });
 
+}
 
 createDivs(16);
