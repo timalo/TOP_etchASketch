@@ -11,6 +11,26 @@ h1 {
     text-align: center;
 }
 
+#alertText {
+    text-align: center;
+    color: red;
+    font-size: 36px;
+}
+
+#currentDimension {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#clearButton {
+    margin: 0 auto 30px auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-weight: 800;
+}
+
 #container {
     margin: auto;
     display: flex;
