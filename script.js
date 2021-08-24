@@ -25,7 +25,7 @@ function createDivs(amount) {
     }
     const boxes = document.querySelectorAll('.box').forEach(item => {
         item.addEventListener('mouseenter', event => {
-            item.classList.add("painted");
+            item.style.backgroundColor = "#" + ((1<<24)*Math.random() | 0).toString(16);
         })
     });
     const dimensionText = document.querySelector('#currentDimension');
