@@ -3,6 +3,10 @@
     height: 40px;
 }
 
+body {
+    background: linear-gradient(162deg, rgba(64, 64, 64, 1) 60%, rgba(204,23,218,1) 99%);
+}
+
 .painted {
     background-color: blueviolet;
 }
@@ -32,6 +36,7 @@ h1 {
 }
 
 #container {
+    background-color: grey;
     margin: auto;
     display: flex;
     flex-direction: row;
